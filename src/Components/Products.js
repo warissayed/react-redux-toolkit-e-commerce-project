@@ -28,7 +28,7 @@ const Products = () => {
   }
 
   if(status === StatusCode.ERROR){
-    return <Alert variant='danger'>YOU FUCKED UP BUDDY</Alert>
+    return <Alert variant='danger'>Error please try again!</Alert>
   }
 
   const addToMyCart = (product)=>{
